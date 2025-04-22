@@ -9,6 +9,7 @@ def main():
     
     try:
         manual_login(driver)
+        driver.execute_script("console.log('webdriver:', navigator.webdriver);")
         driver.get("https://www.linkedin.com/groups/discover/")
         scroll_to_load(driver, scrolls=10)
         click_count = find_and_click_buttons(driver)

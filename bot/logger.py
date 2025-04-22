@@ -4,5 +4,5 @@ from datetime import datetime
 def log_session(clicks):
     os.makedirs("logs", exist_ok=True)  # Ensure folder exists
     with open("logs/actions.log", "a") as f:
-        f.write(f"{datetime.now()} - Clicked {clicks} buttons\n")
+        f.write(f"{datetime.now()} - Joined {clicks} groups\n")
     print(f"Session logged: {clicks} actions")
