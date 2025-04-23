@@ -71,7 +71,7 @@ def automated_login(driver, email, password):
     time.sleep(3)
 
     
-    print("✅ Sign in button clicked. Waiting for redirect...")
+   
     
     # Wait for either success or failure
     try:
