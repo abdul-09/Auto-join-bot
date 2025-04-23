@@ -21,7 +21,7 @@ Supports scrolling and dynamic loading, and mimics human behavior to avoid detec
 - **Python 3.10+**
 - **Selenium** (for browser control)
 - **undetected-chromedriver** (for stealth)
-- Manual login (secure, no password storage)
+- Automatic login (secure, no password storage)
 
 ---
 
@@ -29,7 +29,7 @@ Supports scrolling and dynamic loading, and mimics human behavior to avoid detec
 
 | Feature | Description |
 |--------|-------------|
-| 🔐 Manual Login Flow | Login securely yourself; no password stored in code |
+| 🔐 Auto Login Flow | Login securely by providing your email and password in code |
 | 🔍 Smart Button Detection | Matches button text against keywords like "Join", "Follow" |
 | ⏱ Human-like Behavior | Random delays between actions to avoid detection |
 | 📜 Logs & Limits | Logs number of buttons clicked, limits max per session |
@@ -54,7 +54,7 @@ cd auto-join-bot
 2. Run the bot:
    `python main.py`
 
-3. Log in manually when prompted, then let it run!
+3. Log in by providing your credentials when prompted and then let it run!
 
 ## Developer Notes
 - You can adjust click limits and keywords in `config.py`
