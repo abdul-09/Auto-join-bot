@@ -75,7 +75,7 @@ def automated_login(driver, email, password):
     
     # Wait for either success or failure
     try:
-        WebDriverWait(driver, 30).until(
+        WebDriverWait(driver, 60).until(
             lambda d: "feed" in d.current_url.lower() or "login" in d.current_url.lower()
         )
         
