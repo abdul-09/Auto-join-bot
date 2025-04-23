@@ -15,6 +15,7 @@ def create_driver():
     # # Optional: set realistic window size
     # options.add_argument("window-size=1920,1080")
 
+
     # Optional: load with extensions disabled
     options.add_argument("--disable-extensions")
 

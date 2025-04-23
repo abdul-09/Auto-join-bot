@@ -21,10 +21,18 @@ Supports scrolling and dynamic loading, and mimics human behavior to avoid detec
 - **Python 3.10+**
 - **Selenium** (for browser control)
 - **undetected-chromedriver** (for stealth)
-- Automatic login (secure, no password storage)
+- **Automatic login** (secure, no password storage)
 
 ---
+## 🎯 Goal
 
+This automation script logs into LinkedIn, navigates to suggestions (groups, people, profiles), and **automatically clicks relevant buttons** like:
+
+- ✅ "Join Group"
+- ✅ "Connect"
+- ✅ "Follow"
+
+---
 ## 🚀 Features
 
 | Feature | Description |
@@ -55,6 +63,8 @@ cd auto-join-bot
    `python main.py`
 
 3. Log in by providing your credentials when prompted and then let it run!
+  - N/B - After providing your credentials at the terminal go to webpage
+        - then go back to terminal and choose action
 
 ## Developer Notes
 - You can adjust click limits and keywords in `config.py`
